@@ -6,7 +6,7 @@ function toggleMenu() {
 }
 
 const productsData = [
-    { category: "Suit (3 Piece)", name: "Suit (3 Piece)", img: "https://images.unsplash.com/photo-1593032465175-481ac7f401a0?auto=format&fit=crop&w=600&q=80" },
+    { category: "Suit (3 Piece)", name: "Suit (3 Piece)", img: "Photos/Suit (3 Piece).webp?auto=format&fit=crop&w=600&q=80" },
     { category: "Pants & Shirt", name: "Pants & Shirt", img: "https://images.unsplash.com/photo-1596755094514-f87e32f85e23?auto=format&fit=crop&w=600&q=80" },
     { category: "Blazer", name: "Blazer", img: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80" },
     { category: "Kurta & Pajama", name: "Kurta & Pajama", img: "https://images.unsplash.com/photo-1617317376997-8748e6862c01?auto=format&fit=crop&w=600&q=80" },
