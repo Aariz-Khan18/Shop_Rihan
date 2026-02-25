@@ -11,6 +11,8 @@ const productsData = [
     { category: "Blazer", name: "Blazer", img: "Photos/Blazer.webp?auto=format&fit=crop&w=600&q=80" },
     { category: "Kurta & Pajama", name: "Kurta & Pajama", img: "Photos/Kurta & Pajama.webp?auto=format&fit=crop&w=600&q=80" },
     { category: "Indowestern", name: "Indowestern", img: "Photos/Indowestern.webp?auto=format&fit=crop&w=600&q=80" }
+    { category: "Double Breasted", name: "Double Breasted", img: "Photos/Double Breasted.webp?auto=format&fit=crop&w=600&q=80" }
+];
 ];
 
 let currentCategory = 'All';
