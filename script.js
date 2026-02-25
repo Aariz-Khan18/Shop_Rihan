@@ -13,7 +13,6 @@ const productsData = [
     { category: "Indowestern", name: "Indowestern", img: "Photos/Indowestern.webp?auto=format&fit=crop&w=600&q=80" }
     { category: "Double Breasted", name: "Double Breasted", img: "Photos/Double Breasted.webp?auto=format&fit=crop&w=600&q=80" }
 ];
-];
 
 let currentCategory = 'All';
 
