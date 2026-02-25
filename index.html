@@ -3,102 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malik Tailors & Fabrics</title>
+
+    <title>Malik Tailors & Fabrics | Premium Men's Tailoring in Datia</title>
+
+    <meta name="description" content="Malik Tailors & Fabrics – Premium men's tailoring in Datia, MP. 27+ years expertise in suits, blazers, ethnic wear and branded fabrics like Raymond & Siyaram.">
+    <meta name="author" content="Aariz Khan">
+
+    <link rel="icon" type="image/png" href="Photos/favicon.png">
+
     <link rel="stylesheet" href="style.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo">MALIK TAILORS</div>
-        <a href="tel:9294852720" class="mobile-call-btn"><i class="fas fa-phone-alt"></i> Call</a>
-        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
-        <nav class="nav-links" id="navLinks">
-            <a href="#about" onclick="toggleMenu()">About Us</a>
-            <a href="#brands" onclick="toggleMenu()">Fabrics</a>
-            <a href="#collection" onclick="toggleMenu()">Collection</a>
-            <a href="#reviews" onclick="toggleMenu()">Reviews</a>
-            <a href="#contact" onclick="toggleMenu()">Contact</a>
-            <a href="tel:9294852720" class="btn-call-header">Call Now</a>
-        </nav>
-    </header>
+<header>
+    <div class="logo">MALIK TAILORS</div>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>The Perfect Fit.<br>Every Time.</h1>
-            <p>Mastering the art of Men's Formals, Suits, and Ethnic Wear in Datia.</p>
-            <a href="#collection" class="btn-primary">EXPLORE COLLECTION</a>
+    <a href="tel:9294852720" class="mobile-call-btn">
+        <i class="fas fa-phone-alt"></i> Call
+    </a>
+
+    <button class="menu-icon" onclick="toggleMenu()" aria-label="Open Menu">
+        &#9776;
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#about" onclick="toggleMenu()">About Us</a>
+        <a href="#brands" onclick="toggleMenu()">Fabrics</a>
+        <a href="#collection" onclick="toggleMenu()">Collection</a>
+        <a href="#reviews" onclick="toggleMenu()">Reviews</a>
+        <a href="#contact" onclick="toggleMenu()">Contact</a>
+        <a href="tel:9294852720" class="btn-call-header">Call Now</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>The Perfect Fit.<br>Every Time.</h1>
+        <p>Mastering the art of Men's Formals, Suits, and Ethnic Wear in Datia.</p>
+        <a href="#collection" class="btn-primary">EXPLORE COLLECTION</a>
+    </div>
+</section>
+
+<div id="brands" class="scrolling-brands">
+    <div class="marquee">
+        <span>RAYMOND • SIYARAM • J-HAMPSTEAD • CADINI • ITALIAN FABRICS • </span>
+        <span>RAYMOND • SIYARAM • J-HAMPSTEAD • CADINI • ITALIAN FABRICS • </span>
+    </div>
+</div>
+
+<section id="about" class="about-section">
+    <div class="about-container">
+        <h2>About Malik Tailors</h2>
+        <p class="about-subtitle">Over 27 Years of Sartorial Excellence</p>
+        <p class="about-text">
+            Welcome to Malik Tailors & Fabrics, Datia's premier destination for bespoke menswear.
+        </p>
+    </div>
+</section>
+
+<section id="collection" class="collection-section">
+    <h2>Our Collection</h2>
+
+    <div class="filters">
+        <button class="filter-btn active" onclick="filterProducts('All', event)">All</button>
+        <button class="filter-btn" onclick="filterProducts('Pants & Shirt', event)">Pants & Shirt</button>
+        <button class="filter-btn" onclick="filterProducts('Blazer', event)">Blazer</button>
+        <button class="filter-btn" onclick="filterProducts('Suit (3 Piece)', event)">Suit (3 Piece)</button>
+        <button class="filter-btn" onclick="filterProducts('Kurta & Pajama', event)">Kurta & Pajama</button>
+        <button class="filter-btn" onclick="filterProducts('Indowestern', event)">Indowestern</button>
+        <button class="filter-btn" onclick="filterProducts('Double Breasted', event)">Double Breasted</button>
+    </div>
+
+    <div id="product-grid" class="product-grid"></div>
+</section>
+
+<section id="reviews" class="reviews-section">
+    <h2>Customer Reviews</h2>
+    <div id="dynamic-reviews" class="dynamic-reviews"></div>
+</section>
+
+<footer id="contact">
+    <div class="footer-content">
+        <div class="footer-box">
+            <h3>Visit Us</h3>
+            <p>Near SBI ATM, Bada Bazar,<br>Datia, Madhya Pradesh 475661</p>
         </div>
-    </section>
 
-    <div id="brands" class="scrolling-brands">
-        <div class="marquee">
-            <span>RAYMOND &nbsp;&bull;&nbsp; SIYARAM &nbsp;&bull;&nbsp; J-HAMPSTEAD &nbsp;&bull;&nbsp; CADINI &nbsp;&bull;&nbsp; ITALIAN FABRICS &nbsp;&bull;&nbsp; </span>
-            <span>RAYMOND &nbsp;&bull;&nbsp; SIYARAM &nbsp;&bull;&nbsp; J-HAMPSTEAD &nbsp;&bull;&nbsp; CADINI &nbsp;&bull;&nbsp; ITALIAN FABRICS &nbsp;&bull;&nbsp; </span>
+        <div class="footer-box">
+            <h3>Store Timings</h3>
+            <p>Mon - Sat: 11:30 AM to 9:00 PM</p>
+            <p style="color:#e74c3c;">Sunday: Closed</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Connect With Us</h3>
+            <p>📞 9294852720 | 9926257156</p>
+
+            <div class="social-links">
+                <a href="https://wa.me/919294852720" target="_blank" rel="noopener noreferrer" class="social-icon whatsapp">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="social-icon instagram">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+            </div>
         </div>
     </div>
 
-    <section id="about" class="about-section">
-        <div class="about-container">
-            <h2>About Malik Tailors</h2>
-            <p class="about-subtitle">Over 27 Years of Sartorial Excellence</p>
-            <p class="about-text">
-                Welcome to Malik Tailors & Fabrics, Datia's premier destination for bespoke menswear. Founded and led by Master Tailor <strong>Mr. Malik</strong>, we have been proudly serving our community for <strong>over 27 years</strong>, bringing unmatched dedication, precision, and artistry to every single stitch. 
-            </p>
-            <p class="about-text">
-                Whether it is a sharp 3-piece suit for a corporate meeting, a regal Indowestern for a wedding, or perfectly fitted daily wear pants and shirts, Mr. Malik's decades of expertise ensure that every garment reflects your unique style. We pride ourselves on housing top-tier fabrics like Raymond, Siyaram, and authentic Italian blends to give you a truly premium experience.
-            </p>
-        </div>
-    </section>
+    <div class="footer-bottom">
+        <p>&copy; 2026 Malik Tailors. Designed by Aariz Khan.</p>
+    </div>
+</footer>
 
-    <section id="collection" class="collection-section">
-        <h2>Our Collection</h2>
-        <div class="filters">
-            <button class="filter-btn active" onclick="filterProducts('All', event)">All</button>
-            <button class="filter-btn" onclick="filterProducts('Pants & Shirt', event)">Pants & Shirt</button>
-            <button class="filter-btn" onclick="filterProducts('Blazer', event)">Blazer</button>
-            <button class="filter-btn" onclick="filterProducts('Suit (3 Piece)', event)">Suit (3 Piece)</button>
-            <button class="filter-btn" onclick="filterProducts('Kurta & Pajama', event)">Kurta & Pajama</button>
-            <button class="filter-btn" onclick="filterProducts('Indowestern', event)">Indowestern</button>
-        </div>
-        <div id="product-grid" class="product-grid"></div>
-    </section>
-
-    <section id="reviews" class="reviews-section">
-        <h2>Customer Reviews</h2>
-        <div id="dynamic-reviews" class="dynamic-reviews"></div>
-    </section>
-
-    <footer id="contact">
-        <div class="footer-content">
-            <div class="footer-box">
-                <h3>Visit Us</h3>
-                <p>Near SBI ATM, Bada Bazar,<br>Datia, Madhya Pradesh 475661</p>
-            </div>
-            <div class="footer-box">
-                <h3>Store Timings</h3>
-                <p>Mon - Sat: 11:30 AM to 9:00 PM</p>
-                <p style="color: #e74c3c;">Sunday: Closed</p>
-            </div>
-            <div class="footer-box">
-                <h3>Connect With Us</h3>
-                <p>📞 9294852720 | 9926257156</p>
-                <div class="social-links">
-                    <a href="https://wa.me/919294852720" target="_blank" class="social-icon whatsapp">
-                        <i class="fab fa-whatsapp"></i> WhatsApp
-                    </a>
-                    <a href="https://www.instagram.com/rihan_malik_07_?igsh=czR0MHUzN2t3MHB1" target="_blank" class="social-icon instagram">
-                        <i class="fab fa-instagram"></i> Instagram
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 Malik Tailors. Designed by Aariz Khan.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+<script src="script.js" defer></script>
 </body>
 </html>
