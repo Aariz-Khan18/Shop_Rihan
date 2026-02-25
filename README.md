@@ -25,10 +25,4 @@ Official responsive website for **Malik Tailors & Fabrics, Datia (MP)** — show
 - Google Fonts
 - Font Awesome
 
-## 📍 Location
-Near SBI ATM, Bada Bazar  
-Datia, Madhya Pradesh – 475661  
-
-📞 9294852720 | 9926257156  
-
 ---
