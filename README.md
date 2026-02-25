@@ -1,2 +1,34 @@
-# Shop_Rihan
-Malik Tailors &amp; Fabrics is a premium menswear tailoring website for Datia, MP. Showcasing 27+ years of expertise in suits, blazers, ethnic wear, and branded fabrics like Raymond &amp; Siyaram. Fully responsive with dynamic product filtering and rotating customer reviews.
+# Malik Tailors & Fabrics
+
+Official responsive website for **Malik Tailors & Fabrics, Datia (MP)** — showcasing 27+ years of excellence in premium men's tailoring and fabrics.
+
+## ✨ Features
+- Responsive design (Mobile + Desktop)
+- Product category filtering (JavaScript)
+- Auto-rotating customer reviews
+- Smooth scrolling navigation
+- Click-to-call & WhatsApp integration
+- Modern premium UI
+
+## 🧵 Services
+- 3 Piece Suits
+- Blazers
+- Pants & Shirts
+- Kurta Pajama
+- Indowestern
+- Premium Fabrics (Raymond, Siyaram, J-Hampstead, Italian)
+
+## 🛠 Tech Stack
+- HTML5
+- CSS3
+- JavaScript
+- Google Fonts
+- Font Awesome
+
+## 📍 Location
+Near SBI ATM, Bada Bazar  
+Datia, Madhya Pradesh – 475661  
+
+📞 9294852720 | 9926257156  
+
+---
