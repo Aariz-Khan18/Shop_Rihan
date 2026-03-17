@@ -1,17 +1,17 @@
-# 👔 Malik Tailors — Premium Tailoring Website
+# 👔 Malik Tailors — Minimalist Tailoring Website
 
-A modern and premium website for **Malik Tailors**, a professional tailoring shop in Datia, showcasing services, designs, and customer-focused experience.
+A clean and minimalist website for **Malik Tailors**, designed with a light theme to provide a simple, elegant, and distraction-free user experience.
 
 🌐 **Live Demo:** https://malik-taliors-datia.onrender.com
 
 ---
 
 ## ✨ Features
-- 👔 Tailoring services showcase  
+- 🎯 Minimalist and clean UI  
+- ☀️ Light theme focused design  
 - 📱 Fully responsive (Mobile + Desktop)  
-- ⚡ Smooth UI & clean design  
+- ⚡ Fast and smooth performance  
 - 📍 Shop details & contact integration  
-- 📞 Easy customer interaction  
 
 ---
 
@@ -25,14 +25,18 @@ A modern and premium website for **Malik Tailors**, a professional tailoring sho
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/dark-mobile.png" width="250"/>
-  <img src="assets/dark-desktop.png" width="500"/>
-</p>
-
-<p align="center">
   <img src="assets/light-mobile.png" width="250"/>
   <img src="assets/light-desktop.png" width="500"/>
 </p>
+
+---
+
+## 🎯 Design Approach
+
+- Minimal layout for better readability  
+- Light color palette for a premium feel  
+- Focus on content over heavy visuals  
+- Simple navigation for user convenience  
 
 ---
 
@@ -41,3 +45,5 @@ Malik Tailors
 Datia, Madhya Pradesh  
 
 ---
+
+**Designed & Developed by Aariz Khan**
