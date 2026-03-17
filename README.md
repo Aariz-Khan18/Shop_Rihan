@@ -25,8 +25,8 @@ A clean and minimalist website for **Malik Tailors**, designed with a light them
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="assets/light-mobile.png" width="250"/>
-  <img src="assets/light-desktop.png" width="500"/>
+  <img src="assets/Light Mode (Mobile View).png" width="250"/>
+  <img src="assets/Light Mode (Desktop View).png" width="500"/>
 </p>
 
 ---
