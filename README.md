@@ -45,5 +45,3 @@ Malik Tailors
 Datia, Madhya Pradesh  
 
 ---
-
-**Designed & Developed by Aariz Khan**
