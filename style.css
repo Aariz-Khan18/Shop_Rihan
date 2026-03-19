@@ -55,7 +55,7 @@ h2 { font-size: 32px; margin-bottom: 40px; color: #1a1a1a; }
 .review-box h4 { font-size: 16px; color: #1a1a1a; }
 
 /* Footer & Social Icons */
-footer { background: #1a1a1a; color: #fff; padding: 60px 20px 20px; text-align: center; } /* Adjusted bottom padding */
+footer { background: #1a1a1a; color: #fff; padding: 60px 20px 20px; text-align: center; } 
 .footer-content { display: flex; flex-wrap: wrap; justify-content: center; gap: 50px; max-width: 1200px; margin: auto; }
 .footer-box h3 { color: #b5955c; margin-bottom: 15px; }
 .footer-box p { margin-bottom: 10px; color: #ccc; }
@@ -66,7 +66,6 @@ footer { background: #1a1a1a; color: #fff; padding: 60px 20px 20px; text-align: 
 .social-icon.whatsapp:hover { background-color: #25D366; border-color: #25D366; } 
 .social-icon.instagram:hover { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); border-color: transparent; }
 
-/* NEW: Footer Bottom Styling */
 .footer-bottom {
     margin-top: 50px;
     padding-top: 20px;
@@ -88,4 +87,16 @@ footer { background: #1a1a1a; color: #fff; padding: 60px 20px 20px; text-align: 
     .hero { height: 60vh; }
     .hero-content h1 { font-size: 38px; }
     .review-box { width: 90%; margin-bottom: 20px; }
+}
+
+/* --- SECRET EASTER EGG LINK --- */
+.secret-link {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.secret-link:hover {
+    color: #b5955c;
+    text-shadow: 0 0 8px rgba(181, 149, 92, 0.6);
+    cursor: pointer;
 }
